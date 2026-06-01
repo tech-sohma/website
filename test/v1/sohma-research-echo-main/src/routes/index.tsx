@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AtmosphereLayer } from "@/components/sohma/AtmosphereLayer";
 import { Nav } from "@/components/sohma/Nav";
-import { Hero, Thesis, Pillars, Capability, Governance, Vision, Footer } from "@/components/sohma/sections";
+import { Hero, Thesis, Pillars, Capability, Governance, Vision, Footer, Partners } from "@/components/sohma/sections";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -24,6 +24,7 @@ function Index() {
         <Nav />
         <main>
           <Hero />
+          <Partners />
           <Thesis />
           <Pillars />
           <Capability />
