@@ -33,21 +33,9 @@ export function Nav() {
           <a href="#governance" className="transition-colors hover:text-ivory">Governance</a>
         </nav>
         <div className="flex items-center gap-6 md:gap-10">
-          <div className="hidden items-center gap-6 border-r border-[var(--hairline)] pr-6 md:flex md:gap-8 md:pr-10">
-            <span className="mono-caption hidden xl:inline">Supported by</span>
-            <img
-              src={multiverseLogo}
-              alt="Multiverse Computing"
-              className="h-10 opacity-60 grayscale transition-all duration-500 hover:opacity-90 hover:grayscale-0 md:h-11"
-              loading="lazy"
-            />
-            <img
-              src={innovateukLogo}
-              alt="Innovate UK"
-              className="h-10 opacity-60 grayscale transition-all duration-500 hover:opacity-90 hover:grayscale-0 md:h-11"
-              loading="lazy"
-            />
-          </div>
+          <a href="https://www.linkedin.com/company/sohma-ai/posts/?feedView=all" target="_blank" rel="noreferrer" className="hidden font-mono text-[11px] uppercase tracking-[0.22em] text-dim transition-colors hover:text-ivory md:block">
+            LinkedIn
+          </a>
           <a href="#contact" className="font-mono text-[11px] uppercase tracking-[0.22em] text-dim transition-colors hover:text-signal">
             Contact →
           </a>

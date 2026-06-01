@@ -209,13 +209,13 @@ export function Partners() {
             <img
               src={multiverseLogo}
               alt="Multiverse Computing"
-              className="h-16 opacity-50 grayscale transition-all duration-500 hover:opacity-80 hover:grayscale-0 md:h-[72px]"
+              className="h-24 opacity-50 grayscale transition-all duration-500 hover:opacity-80 hover:grayscale-0 md:h-40"
               loading="lazy"
             />
             <img
               src={innovateukLogo}
               alt="Innovate UK"
-              className="h-16 opacity-50 grayscale transition-all duration-500 hover:opacity-80 hover:grayscale-0 md:h-[72px]"
+              className="h-24 opacity-50 grayscale transition-all duration-500 hover:opacity-80 hover:grayscale-0 md:h-40"
               loading="lazy"
             />
           </div>
@@ -306,7 +306,8 @@ export function Footer() {
           <span className="font-serif text-lg">SOHMA</span>
           <span className="mono-caption ml-4 hidden md:inline">Behavioral intelligence and governance layer</span>
         </div>
-        <div className="flex flex-wrap gap-8">
+        <div className="flex flex-wrap items-center gap-8">
+          <a href="https://www.linkedin.com/company/sohma-ai/posts/?feedView=all" target="_blank" rel="noreferrer" className="mono-caption transition-colors hover:text-ivory">LinkedIn</a>
           <span className="mono-caption">© 2026 SOHMA AI</span>
         </div>
       </div>
