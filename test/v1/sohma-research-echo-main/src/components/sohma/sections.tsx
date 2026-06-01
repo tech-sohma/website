@@ -11,14 +11,9 @@ export function Hero() {
       <div className="mx-auto w-full max-w-[1400px]">
         <div className="grid grid-cols-12 items-center gap-10 lg:gap-16">
           <div className="col-span-12 lg:col-span-7">
-            <Reveal>
-              <div className="mb-10 flex items-center gap-3">
-                <span className="h-px w-10 bg-[var(--signal)] opacity-60" />
-                <span className="mono-caption">SOHMA / Behavioral Intelligence Layer</span>
-              </div>
-            </Reveal>
+
             <Reveal delay={150}>
-              <h1 className="font-serif text-[clamp(2.4rem,6vw,5.6rem)] leading-[1.02] tracking-[-0.015em] text-ivory">
+              <h1 className="font-serif text-[clamp(2.0rem,4.5vw,4.5rem)] leading-[1.02] tracking-[-0.015em] text-ivory">
                 The emotional intelligence<br />
                 infrastructure for the<br />
                 <span className="italic text-signal">next generation</span> of AI.
@@ -52,9 +47,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="pointer-events-none absolute inset-x-0 bottom-6 mx-auto flex max-w-[1400px] items-end justify-between px-8 md:px-14">
-        <span className="mono-caption">On-device · No camera · No microphone</span>
-        <span className="mono-caption hidden md:block">Signal · stable</span>
+      <div className="pointer-events-none absolute inset-x-0 bottom-6 mx-auto flex max-w-[1400px] items-end justify-end px-8 md:px-14">
         <span className="mono-caption">v1 · 2026</span>
       </div>
     </section>
